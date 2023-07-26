@@ -462,8 +462,21 @@
         <div class="footer-email">
           <p class="footer-email-paragraf">Subscribe</p>
 
-          <form class="footer-form" action="">
-            
+          <!-- <form class="footer-form"> -->
+          <form class="footer-form" name="feedback_form" autocomplete="off" novalidate>
+            <label class="footer-form-label" for="emails"
+              ><input
+                class="footer-form-input"
+                type="email"
+                name="emails"
+                placeholder="E-mail"
+            /></label>
+
+            <button class="footer-button">
+              Subscribe<svg class="footer-button-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-frame"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
