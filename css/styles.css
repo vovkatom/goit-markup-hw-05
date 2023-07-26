@@ -558,9 +558,10 @@ img,
 .footer-form-input {
   width: 264px;
   height: 40px;
-  font-size: 12xp;
+  
   border: 1px solid var(--white-background, #ffffff);
   background-color: transparent;
+  font-size: 12xp;
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding-left: 16px;
@@ -571,6 +572,7 @@ img,
 
 .footer-form-input::placeholder {
   color: var(--white-background, #ffffff);
+  font-size: 12xp;
 }
 
 .footer-button {
