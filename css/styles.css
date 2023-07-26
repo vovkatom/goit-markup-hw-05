@@ -558,9 +558,9 @@ img,
 .footer-form-input {
   width: 264px;
   height: 40px;
+  font-size: 12xp;
   border: 1px solid var(--white-background, #ffffff);
   background-color: transparent;
-  font-size: 12xp;
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding-left: 16px;
@@ -575,7 +575,7 @@ img,
 
 .footer-button {
   min-width: 165px;
-  height: 40px; 
+  height: 40px;
   font-family: var(--primary-font);
   font-size: 16px;
   font-weight: 500;
@@ -583,7 +583,7 @@ img,
   letter-spacing: 0.04em;
   color: var(--white-background, #ffffff);
   cursor: pointer;
-  background-color: var(--primary-Brand, #4D5AE5);
+  background-color: var(--primary-Brand, #4d5ae5);
   border: none;
   border-radius: 4px;
 }
@@ -604,11 +604,11 @@ img,
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.is-hidden {
+/* .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}
+} */
 
 .modal-page {
   position: absolute;
@@ -622,6 +622,18 @@ img,
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  padding: 72px 24px 24px 24px;
+}
+
+.modal-page-p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--dark, #2E2F42);
+  margin-bottom: 16px;
 }
 
 .button-modal {

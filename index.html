@@ -463,16 +463,30 @@
           <p class="footer-email-paragraf">Subscribe</p>
 
           <!-- <form class="footer-form"> -->
-          <form class="footer-form" name="feedback_form" autocomplete="off" novalidate>
-            <label class="footer-form-label" for="emails"
-              ><input
+          <form
+            class="footer-form"
+            name="feedback_form"
+            autocomplete="off"
+            novalidate
+          >
+            <!-- <label class="footer-form-label" for="emails" -->
+            <!-- ><input -->
+            <!-- class="footer-form-input" -->
+            <!-- type="email" -->
+            <!-- name="emails" -->
+            <!-- placeholder="E-mail" -->
+            <!-- /></label> -->
+
+            <label class="footer-form-label">
+              <input
                 class="footer-form-input"
                 type="email"
-                name="emails"
+                name="email"
                 placeholder="E-mail"
-            /></label>
+              />
+            </label>
 
-            <button class="footer-button">
+            <button class="footer-button" type="submit">
               Subscribe<svg class="footer-button-svg" width="24" height="24">
                 <use href="./images/icons.svg#icon-frame"></use>
               </svg>
@@ -484,6 +498,8 @@
 
     <div class="data-modal is-hidden" data-modal>
       <div class="modal-page">
+        <p class="modal-page-p">Leave your contacts and we will call you back</p>
+
         <button class="button-modal" type="button" data-modal-close>
           <svg class="icon-modal" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
