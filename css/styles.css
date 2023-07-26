@@ -509,6 +509,12 @@ img,
   background-color: #31d0aa;
 }
 
+.footer-email-paragraf {
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: var(--white-background, #ffffff);
+}
+
 .main-features .icon-features {
   height: 112px;
   margin-bottom: 8px;
