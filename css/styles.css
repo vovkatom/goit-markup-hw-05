@@ -724,11 +724,16 @@ img,
   fill: transparent;
 }
 
-input:checked ~ .modal-forms-span {
+.input-checkbox:checked {
   background-color: var(--pressed-state, #404bbf);
   border: none;
   fill: var(--pressed-state, #404bbf);
 }
+
+/* .input-checkbox:checked {
+  outline: 2px solid #2196f3;
+  outline-offset: 2px;
+} */
 
 .modal-input:focus ~ .modal-forms-icon {
   fill: var(--primary-Brand, #4D5AE5)
