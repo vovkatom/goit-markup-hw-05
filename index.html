@@ -557,13 +557,13 @@
 
           <div class="modal-forms-checkbox">
             <input
-              class="input-checkbox visually-hidden"
+              class="input-checkbox visually-hidden1"
               type="checkbox"
               id="user-privacy"
               value="true"
               name="user-privacy"
             />
-            <label class="modal-forms-label-check" for="user-privacy"
+            <!-- <label class="modal-forms-label-check" for="user-privacy"
               >I accept the terms and conditions of the
               <span class="modal-forms-span"
                 ><a class="modal-forms-span-link" href="">Privacy Policy</a
@@ -571,10 +571,18 @@
                   <use
                     href="./images/icons.svg#icon-checkmark2"
                   ></use></svg></span
+            ></label> -->
+            <label class="modal-forms-label-check" for="user-privacy"
+              >I accept the terms and conditions of the<span
+                class="modal-forms-span"
+                ><svg class="test-icon" width="10" height="8">
+                  <use
+                    href="./images/icons.svg#icon-checkmark2"
+                  ></use></svg></span
             ></label>
           </div>
 
-          <button class="button-modal-send">Send</button>
+          <button class="button-modal-send" type="submit">Send</button>
         </form>
       </div>
     </div>
