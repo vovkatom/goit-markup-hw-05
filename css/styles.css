@@ -771,10 +771,6 @@ img,
   fill: var(--light, #f4f4fd);
 }
 
-/* .modal-forms-span-icon {
-  fill: transparent;
-} */
-
 .modal-forms-span-link {
   color: var(--primary-Brand, #4d5ae5);
   text-decoration: underline;
