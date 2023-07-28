@@ -745,11 +745,11 @@ img,
 }
 
 .modal-forms-label-check {
+  display: inline-flex;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--subtle-Text, #8e8f99);
-  display: inline-flex;
 }
 
 .modal-forms-span {
@@ -796,8 +796,8 @@ img,
   fill: var(--primary-Brand, #4d5ae5);
 }
 
-.is-hidden {
+/* .is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-}
+} */
